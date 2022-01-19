@@ -1,5 +1,5 @@
-const userController = require('../controller').user;
-const postController = require('../controller').post;
+const userController = require('/controller').user;
+const postController = require('/controller').post;
 module.exports = (app) => {
 
     app.get('/api',(req,res) => {
